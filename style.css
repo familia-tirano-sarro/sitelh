@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+}
+
+/*==================================== Header =========================================*/
+
+.header-page h1{
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.header-page ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-page ul li{
+    list-style: none;
+    margin: 2%;
+    margin-left: 110px;
+}
+
+.header-page ul li a{
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.header-page ul li a:hover{
+    text-decoration: underline;
+}
+/*======================================= Home =========================================*/
+
+#home{
+    background-image: url(img/WhatsApp\ Image\ 2021-10-24\ at\ 21.14.09.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    min-height: 590px;
+    width: 100%;
+}
+
+/*======================================= Sobre =========================================*/
+
+.content #Sobre h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 66px 0px 40px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content #Sobre img{
+    width: 100%;
+}
+
+.content #Sobre p{
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content #MeuCurso h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 66px 0px 40px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content #MeuCurso video, source{
+    height: 300px;
+    width: 100%;
+}
+
+.content #MeuCurso h3{
+    margin-left: 13px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*========================================== Responsividade =================================================*/
+
+@media only screen and (max-width: 959px) {
+    body{
+        margin: -1px;
+    }
+
+    .header-page h1{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    
+    .header-page ul li a{
+        font-size: 23px;
+    }
+
+    .header-page ul li{
+        margin: 2%;
+    }
+}
